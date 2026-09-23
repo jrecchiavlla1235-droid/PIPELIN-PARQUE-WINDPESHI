@@ -1,0 +1,15 @@
+# Librerías esenciales para Adquisición e Integración de Datos
+# Manipulación y análisis tabular de series temporales
+pandas>=2.0.0
+
+# Operaciones numéricas y generación de distribuciones físicas (Weibull)
+numpy>=1.24.0
+
+# Cliente HTTP para consumo de APIs REST meteorológicas (Open-Meteo)
+requests>=2.31.0
+
+# Gestión estricta de husos horarios (UTC-5 América/Bogotá)
+pytz>=2023.3
+
+# Motor de lectura y escritura de libros Microsoft Excel (.xlsx)
+openpyxl>=3.1.0

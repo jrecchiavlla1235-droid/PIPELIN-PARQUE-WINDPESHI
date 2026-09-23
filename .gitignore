@@ -1,0 +1,37 @@
+# Entorno virtual de Python
+.venv/
+venv/
+env/
+ENV/
+
+# Archivos compilados y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Variables de entorno y secretos (¡NUNCA subir contraseñas ni API keys!)
+.env
+.env.local
+*.env
+
+# Archivos de datos locales y descargas pesadas
+# (En proyectos de datos, los datos crudos y procesados no se suben a Git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.parquet
+*.json
+*.sqlite3
+*.db
+
+# Logs y reportes temporales
+*.log
+logs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/

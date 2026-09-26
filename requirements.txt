@@ -13,3 +13,7 @@ pytz>=2023.3
 
 # Motor de lectura y escritura de libros Microsoft Excel (.xlsx)
 openpyxl>=3.1.0
+
+# Visualización analítica y curvas de generación vs demanda
+matplotlib>=3.7.0
+seaborn>=0.12.0
